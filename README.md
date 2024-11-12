@@ -1,8 +1,8 @@
-# NOTICE
-This mod is outdated since all of these features have been added to u21. I will still keep this mod up in case anyone for whatever reason wants to use u20.
 
-# Bernadetta's Profile Tools
- Mod that adds buttons to switch character and change name for profiles
+# Bernadetta Style Profile Tools
+
+Mod that adds buttons to switch character and change name for profiles  
+*fork of https://modworkshop.net/mod/38427, updated for U22 and higher.*
 
 Preview of changing character: https://youtu.be/5laZGLgecJg
 
