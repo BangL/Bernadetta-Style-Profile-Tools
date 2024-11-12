@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<mod name="Bernadetta Style Profile Tools"
+      author="Punished Bernadetta, BangL"
+	contact="https://steamcommunity.com/id/BangL"
+      description="No one should be forced to cycle through raiders one by one"
+      version="1.2"
+      color="60 60 60">
+
+      <updates>
+            <update provider="modworkshop" identifier="47614" />
+      </updates>
+
+      <hooks>
+            <!-- Button creation -->
+            <post hook_id="lib/managers/menu/raid_menu/controls/raidguicontrollistitemcharacterselect" script_path="raidguicontrollistitemcharacterselect.lua" />
+            <!-- Button definitions -->
+            <post hook_id="lib/managers/menu/raid_menu/controls/raidguicontrollistitemcharacterselectbutton" script_path="raidguicontrollistitemcharacterselectbutton.lua" />
+            <!-- Button functionality -->
+            <post hook_id="lib/managers/menu/raid_menu/characterselectiongui" script_path="characterselectiongui.lua" />
+      </hooks>
+</mod>

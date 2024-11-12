@@ -1,28 +1,19 @@
-<table name="Bernadetta's Profile Tools"
-		author="Punished Bernadetta"
-		color="Color('bf204b')"
-		description="No one should be forced to listen to Rivet"
-		cannot_be_disabled="false"
-		early_init="false">
+<table name="Bernadetta Style Profile Tools"
+       author="Punished Bernadetta, BangL"
+       contact="https://steamcommunity.com/id/BangL"
+       description="No one should be forced to cycle through raiders one by one">
+    <auto_updates provider="modworkshop"
+                  id="47614"
+                  version="1.2" />
     <hooks>
-		<!--Button creation-->
-		<hook source_file="lib/managers/menu/raid_menu/controls/raidguicontrollistitemcharacterselect"
-			file="raidguicontrollistitemcharacterselect.lua"/>
-		<!--Button definitions-->
-		<hook source_file="lib/managers/menu/raid_menu/controls/raidguicontrollistitemcharacterselectbutton"
-			file="raidguicontrollistitemcharacterselectbutton.lua"/>
-		<!--Button functionality-->
-		<hook source_file="lib/managers/menu/raid_menu/characterselectiongui"
-			file="characterselectiongui.lua"/>
-		<!--Icons-->
-		<hook source_file="lib/tweak_data/guitweakdata"
-			file="guitweakdata.lua"/>
+        <!-- Button creation -->
+        <hook source_file="lib/managers/menu/raid_menu/controls/raidguicontrollistitemcharacterselect"
+              file="raidguicontrollistitemcharacterselect.lua" />
+        <!-- Button definitions -->
+        <hook source_file="lib/managers/menu/raid_menu/controls/raidguicontrollistitemcharacterselectbutton"
+              file="raidguicontrollistitemcharacterselectbutton.lua" />
+        <!-- Button functionality -->
+        <hook source_file="lib/managers/menu/raid_menu/characterselectiongui"
+              file="characterselectiongui.lua" />
     </hooks>
-	<localization directory="loc" default="english.json">
-		<loc file="english.json" language="english"/>
-	</localization>
-	<auto_updates
-        provider="modworkshop"
-        id="38427"
-		version="2.0"/>
 </table>
