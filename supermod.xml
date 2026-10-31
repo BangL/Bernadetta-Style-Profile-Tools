@@ -8,7 +8,7 @@
 
       <updates>
             <update identifier="bernadettas-profile-tools">
-                <host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/bernadettas-profile-tools.json"/>
+                <host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/bernadettas-profile-tools.json" patchnotes="https://github.com/BangL/Bernadetta-s-Profile-Tools/blob/main/CHANGELOG.md"/>
             </update>
       </updates>
 
